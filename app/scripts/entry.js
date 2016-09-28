@@ -3,14 +3,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory} from 'react-router';
 import App from './app';
-import Poop from './Poop';
-import Doody from './Doody';
+import LinkOne from './LinkOne';
+import LinkTwo from './LinkTwo';
 
 const router = (
 	<Router history={hashHistory}>
 		<Route path="/" component={App}/>
-			<Route path="/poop" component={Poop}/>
-			<Route path="/doody" component={Doody}/>
+			<Route path="/link-one" component={LinkOne}/>
+			<Route path="/link-two" component={LinkTwo}/>
 		</Router>
 );
 

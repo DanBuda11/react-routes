@@ -7,8 +7,8 @@ export default React.createClass({
 			<div>
 				<div>Hi</div>
 				<ul>
-					<li><Link to="/poop">Poop</Link></li>	
-					<li><Link to="/doody">Doody</Link></li>
+					<li><Link to="/link-one">Link 1</Link></li>	
+					<li><Link to="/link-two">Link 2</Link></li>
 				</ul>
 
 			</div>

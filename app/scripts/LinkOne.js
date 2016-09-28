@@ -4,7 +4,10 @@ import {Link} from 'react-router';
 export default React.createClass({
 	render: function() {
 		return (
-			<div>Doody</div>
+			<div>
+				<div>You got to Link 1!</div>
+				<Link to="/">Back Home</Link>
+			</div>
 		);
 	}
 });
